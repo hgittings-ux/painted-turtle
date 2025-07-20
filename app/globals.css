@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Amatic+SC:wght@700&family=Inter:wght@300;400;500;600;700&family=Pacifico&display=swap');
+
+/* Custom color variables */
+:root {
+  --color-sand: #f5e9da;
+  --color-forest: #2d4739;
+  --color-turtle: #6e8b3d;
+  --color-sky: #b3d8e6;
+  --color-lake: #4a7c59;
+  --color-sunset: #f7b267;
+  --color-logo-text: #4B4F39;
+  --color-accent: #E9C46A;
+  --color-background: #FAF7F2;
+  --color-button: #2A9D8F;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Navigation styles */
+  .nav-link {
+    @apply text-forest/80 hover:text-forest transition-colors duration-200 font-medium relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-forest transition-all duration-200;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .mobile-nav-link {
+    @apply block px-3 py-2 text-forest/80 hover:text-forest hover:bg-cream rounded-md transition-colors duration-200 font-medium;
+  }
+  
+  /* Handwritten font */
+  .handwritten {
+    font-family: 'Pacifico', cursive;
+    @apply text-forest;
+  }
+  
+  /* Amatic SC font for brand */
+  .amatic {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+  }
+  
+  /* Quicksand font for brand */
+  .quicksand {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Section backgrounds */
+  .section-bg {
+    @apply bg-sky/30 rounded-xl p-6 my-6;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    @apply bg-gradient-to-r from-forest to-goldenrod text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-white/80 backdrop-blur-sm text-forest px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg border border-forest/10 hover:border-turtle/30 transition-all duration-300;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 overflow-hidden;
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-hero {
+    @apply bg-gradient-to-br from-sand via-sky/10 to-sand;
+  }
+  
+  .gradient-card {
+    @apply bg-gradient-to-br from-white/80 to-sky/20 backdrop-blur-sm;
+  }
+
+  /* Caveat font for brand */
+  .caveat {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+  }
+
+  /* Shadows Into Light font for brand */
+  .shadows {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+  }
+
+  .watercolor-bg {
+    background-color: #FAF7F2;
+    background-image: url('/images/watercolor-paper-bg.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+  }
+}
+
+/* Utility styles */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+  }
+  
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+}
