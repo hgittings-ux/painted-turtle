@@ -27,7 +27,7 @@ export default function GivingBack() {
               Our Commitment
             </h2>
                          <p className="text-xl text-olive/80 leading-relaxed mb-8">
-               Painted Turtle LLC is committed to complete transparency. <strong>100% of profits</strong> from hand-painted cards and prints are donated to protect wildlife in Northern Michigan.
+               Painted Turtle LLC is committed to complete transparency. <strong>100% of profits</strong> from cards and prints are donated to protect wildlife in Northern Michigan.
              </p>
             <div className="bg-gradient-to-br from-forest/10 to-goldenrod/10 rounded-2xl p-6">
               <p className="text-lg text-olive font-semibold mb-2">

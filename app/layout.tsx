@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <img src="/images/Painted Turtle Logo_Stacked_High Res Standard.png" alt="Painted Turtle stacked logo" className="h-10 w-auto" style={{ maxHeight: '2.5rem' }} />
             </div>
             <p className="text-sm opacity-90 mb-2">
-              100% of profits from hand-painted cards donated to protect Northern Michigan wildlife
+              Hand-painted art supporting Michigan wildlife conservation. Every purchase helps protect our natural beauty.
             </p>
             <p className="text-xs opacity-75">
               &copy; {new Date().getFullYear()} Painted Turtle LLC. All rights reserved.

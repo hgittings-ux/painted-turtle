@@ -16,13 +16,13 @@ export default function About() {
             About Penelope
           </h1>
           <p className="text-xl text-olive/70 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Meet the teenage artist behind Painted Turtle LLC
+            Meet the artist behind Painted Turtle LLC
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="px-6 py-16 md:py-24">
+      <section className="px-6 pt-6 pb-16 md:pt-6 md:pb-24">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Portrait */}
@@ -44,27 +44,20 @@ export default function About() {
                 <h2 className="font-heading text-3xl text-olive mb-6">
                   My Story
                 </h2>
-                <div className="space-y-4 text-olive/80 leading-relaxed">
+                <div className="space-y-4 text-olive/80 leading-relaxed font-body">
                   <p className="text-lg">
-                    Hi! I'm Penelope, a teenage artist from Northern Michigan. I started Painted Turtle LLC to share my love of watercolor and the outdoors, and to help protect the wildlife that inspires my art.
+                    My name is Penelope Gittings, and I am the nature loving artist who started Painted Turtle LLC. Much of Michigan's natural beauty and wonder, including wildlife, forests, and sand dunes, are threatened by climate change, development, and invasive species.
                   </p>
-                                     <p>
-                     My cards and prints are inspired by the lakes, forests, and animals of my home. Every card is hand-painted by me with care, and every purchase helps support local conservation efforts.
-                   </p>
-                  <p>
-                    When I'm not painting, you can find me exploring the woods, watching birds, or learning about local wildlife. The natural beauty of Northern Michigan is what drives my creativity.
+                  <p className="text-lg">
+                    The goal of Painted Turtle is to help share the beauty of nature with your friends and family, as well as raise awareness for wildlife. Every card design was hand painted in the hopes of helping conservation efforts in Michigan.
+                  </p>
+                  <p className="text-lg">
+                    I would like to thank everyone for supporting not only my art, but plants and animals across the beautiful state of Michigan.
                   </p>
                 </div>
               </div>
               
-              <div className="card p-8">
-                <h3 className="font-heading text-2xl text-olive mb-4">
-                  My Mission
-                </h3>
-                <p className="text-olive/80 leading-relaxed">
-                  Thank you for supporting my art and helping protect the wild places and creatures I love! Together, we can make a difference for Northern Michigan's wildlife.
-                </p>
-              </div>
+
             </div>
           </div>
         </div>
@@ -78,7 +71,7 @@ export default function About() {
               What Drives Me
             </h2>
             <p className="text-xl text-olive/70 max-w-2xl mx-auto">
-              Three core values that guide everything I create
+              Three core values that guide Painted Turtle.
             </p>
           </div>
           
@@ -89,7 +82,7 @@ export default function About() {
               </div>
                              <h3 className="font-heading text-xl font-semibold text-olive mb-4">Artistic Expression</h3>
                <p className="text-olive/70">
-                 Creating beautiful hand-painted watercolor art that captures the essence of Northern Michigan's natural beauty
+                 Improving my own artistic abilities while sharing the beauty of nature with others
                </p>
             </div>
             
@@ -99,7 +92,7 @@ export default function About() {
               </div>
               <h3 className="font-heading text-xl font-semibold text-olive mb-4">Environmental Stewardship</h3>
               <p className="text-olive/70">
-                Using eco-friendly materials and donating all profits to protect local wildlife and habitats
+                Raising awareness for threatened wildlife and protective conservation efforts in Northern Michigan
               </p>
             </div>
             
@@ -109,7 +102,7 @@ export default function About() {
               </div>
               <h3 className="font-heading text-xl font-semibold text-olive mb-4">Community Impact</h3>
               <p className="text-olive/70">
-                Building connections through art while supporting conservation efforts in our local community
+                Connecting people through art and a shared love of the world
               </p>
             </div>
           </div>
