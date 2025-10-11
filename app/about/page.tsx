@@ -21,44 +21,35 @@ export default function About() {
         </div>
       </section>
 
+      {/* Portrait Section */}
+      <section className="px-6 py-12">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-block p-4 bg-gradient-to-br from-sky/20 to-lake/20 rounded-3xl">
+            <Image 
+              src="/images/penelope.JPG" 
+              alt="Penelope Gittings portrait" 
+              width={300} 
+              height={300} 
+              className="rounded-2xl shadow-xl"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Main Content */}
-      <section className="px-6 pt-6 pb-16 md:pt-6 md:pb-24">
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Portrait */}
-            <div className="text-center lg:text-left">
-              <div className="inline-block p-4 bg-gradient-to-br from-sky/20 to-lake/20 rounded-3xl">
-                <Image 
-                  src="/images/penelope.JPG" 
-                  alt="Penelope Gittings portrait" 
-                  width={300} 
-                  height={300} 
-                  className="rounded-2xl shadow-xl"
-                />
-              </div>
-            </div>
-            
-            {/* Story */}
-            <div className="space-y-6">
-              <div className="card p-8">
-                <h2 className="font-heading text-3xl text-olive mb-6">
-                  My Story
-                </h2>
-                <div className="space-y-4 text-olive/80 leading-relaxed font-body">
-                  <p className="text-lg">
-                  I, Penelope Gittings, am the founder of Painted Turtle. Since I was young, I always had a concern for nature and its wellbeing. When I was in third grade, my friends and I tried to start a lemonade stand to donate to endangered species, but alas, coordinating the schedules of four kids with ages in the single digits is no easy task, and that plan had to be abandoned. During the summer of 2025, finding myself drawing birds, I returned to the concept of a business to support nature. Hence, Painted Turtle was born! To make my products, I create a design on a 5.5 x 8.7 piece of watercolor paper, then copy and print my art to sell as stickers or cards. After business expenses, I donate the profits to the Grand Traverse Regional Land Conservancy, or GTRLC for short. For more information of the work of GTRLC, visit their website linked below, but the sparknotes summary is that they buy land or make agreements with landowners in Northern Michigan to preserve nature and have sustainable development. I choose to donate profits to GTRLC because their work will last for centuries, and it encompasses many aspects of nature. If you have any questions about me, my business, or anything else, contact me at the email provided below. 
-
-                  </p>
-                  <p className="text-lg">
-                    
-                  </p>
-                  <p className="text-lg">
-                    I would like to thank everyone for supporting not only my art, but plants and animals across the beautiful state of Michigan.
-                  </p>
-                </div>
-              </div>
-              
-
+      <section className="px-6 pb-16 md:pb-24">
+        <div className="max-w-6xl mx-auto">
+          <div className="card p-8 md:p-12">
+            <h2 className="font-heading text-3xl md:text-4xl text-olive mb-8 text-center">
+              My Story
+            </h2>
+            <div className="space-y-6 text-olive/80 leading-relaxed font-body max-w-4xl mx-auto">
+              <p className="text-lg md:text-xl">
+                I, Penelope Gittings, am the founder of Painted Turtle. Since I was young, I always had a concern for nature and its wellbeing. When I was in third grade, my friends and I tried to start a lemonade stand to donate to endangered species, but alas, coordinating the schedules of four kids with ages in the single digits is no easy task, and that plan had to be abandoned. During the summer of 2025, finding myself drawing birds, I returned to the concept of a business to support nature. Hence, Painted Turtle was born! To make my products, I create a design on a 5.5 x 8.7 piece of watercolor paper, then copy and print my art to sell as stickers or cards. After business expenses, I donate the profits to the Grand Traverse Regional Land Conservancy, or GTRLC for short. For more information of the work of GTRLC, visit their website linked below, but the sparknotes summary is that they buy land or make agreements with landowners in Northern Michigan to preserve nature and have sustainable development. I choose to donate profits to GTRLC because their work will last for centuries, and it encompasses many aspects of nature. If you have any questions about me, my business, or anything else, contact me at the email provided below.
+              </p>
+              <p className="text-lg md:text-xl">
+                I would like to thank everyone for supporting not only my art, but plants and animals across the beautiful state of Michigan.
+              </p>
             </div>
           </div>
         </div>
