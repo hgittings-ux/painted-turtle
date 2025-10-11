@@ -45,11 +45,11 @@ export default function Home() {
       <section className="w-full py-16 md:py-24 bg-goldenrod/10 border-b border-goldenrod/40">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="font-heading text-4xl md:text-5xl text-olive mb-6">Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end justify-center mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-end justify-center mb-8">
             {/* Blue Jay */}
             <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
               <Image
-                src="/images/blue-jay-greeting-card.jpeg"
+                src="/images/Blue-Jay.jpg"
                 alt="Blue Jay Greeting Card"
                 width={320}
                 height={240}
@@ -71,7 +71,7 @@ export default function Home() {
                         {/* Martin */}
             <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
               <Image
-                src="/images/martin-greeting-card.jpeg"
+                src="/images/marten-PT.jpg"
                 alt="Martin Greeting Card"
                 width={320}
                 height={240}
@@ -104,7 +104,7 @@ export default function Home() {
             {/* Red Tailed Hawk */}
             <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
               <Image
-                src="/images/red-tailed-hawk-PT.jpg"
+                src="/images/red-tailed-hawk.jpg"
                 alt="Red Tailed Hawk Greeting Card"
                 width={320}
                 height={240}
@@ -177,6 +177,39 @@ export default function Home() {
                 className="rounded-xl object-contain mx-auto h-56 w-auto"
               />
               <div className="mt-4 text-olive text-lg font-medium">Indigo Bunting Greeting Card</div>
+            </div>
+            {/* Blue Jay Print */}
+            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
+              <Image
+                src="/images/Blue-Jay.jpg"
+                alt="Blue Jay Print"
+                width={320}
+                height={240}
+                className="rounded-xl object-contain mx-auto h-56 w-auto"
+              />
+              <div className="mt-4 text-olive text-lg font-medium">Blue Jay Print</div>
+            </div>
+            {/* Painted Turtle Greeting Card */}
+            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
+              <Image
+                src="/images/Painted-turtle-greeting-card.jpg"
+                alt="Painted Turtle Greeting Card"
+                width={320}
+                height={240}
+                className="rounded-xl object-contain mx-auto h-56 w-auto"
+              />
+              <div className="mt-4 text-olive text-lg font-medium">Painted Turtle Greeting Card</div>
+            </div>
+            {/* Pleasant Peninsula */}
+            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
+              <Image
+                src="/images/Pleasant-Peninsula-PT.jpg"
+                alt="Pleasant Peninsula Print"
+                width={320}
+                height={240}
+                className="rounded-xl object-contain mx-auto h-56 w-auto"
+              />
+              <div className="mt-4 text-olive text-lg font-medium">Pleasant Peninsula Print</div>
             </div>
           </div>
         </div>

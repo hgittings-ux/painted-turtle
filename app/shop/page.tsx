@@ -5,42 +5,16 @@ import Image from 'next/image';
 
 const products = [
   { 
-    id: 1, 
-    name: 'Blue Jay Greeting Card', 
-    price: 5, 
-    image: '/images/blue-jay-greeting-card.jpeg', 
-    description: 'Description coming soon!',
-    category: 'Greeting Cards',
-    species: 'Birds',
-    inStock: true,
-    animalDescription: 'Description coming soon!',
-    habitat: 'Deciduous and mixed forests, parks, and suburban areas',
-    conservationStatus: 'Least Concern - Population stable'
-  },
-  { 
     id: 2, 
     name: 'Purple Marten Greeting Card', 
     price: 5, 
-    image: '/images/martin-greeting-card.jpeg', 
+    image: '/images/marten-PT.jpg', 
     description: 'Description coming soon!',
     category: 'Greeting Cards',
     species: 'Mammals',
     inStock: true,
     animalDescription: 'Description coming soon!',
     habitat: 'Open areas near water, often using man-made nest boxes',
-    conservationStatus: 'Least Concern - Population stable'
-  },
-  { 
-    id: 3, 
-    name: 'Painted Turtle Greeting Card', 
-    price: 5, 
-    image: '/images/painted-turtle-greeting-card.jpeg', 
-    description: 'Description coming soon!',
-    category: 'Greeting Cards',
-    species: 'Reptiles',
-    inStock: true,
-    animalDescription: 'Description coming soon!',
-    habitat: 'Ponds, lakes, marshes, and slow-moving streams',
     conservationStatus: 'Least Concern - Population stable'
   },
   { 
@@ -73,7 +47,7 @@ const products = [
     id: 6, 
     name: 'Red-Tailed Hawk Print', 
     price: 18, 
-    image: '/images/red-tailed-hawk-PT.jpg', 
+    image: '/images/red-tailed-hawk.jpg', 
     description: 'Description coming soon!',
     category: 'Prints',
     species: 'Birds',
@@ -159,11 +133,154 @@ const products = [
     animalDescription: 'Description coming soon!',
     habitat: 'Caves, forests, and riparian areas',
     conservationStatus: 'Endangered - Population declining'
+  },
+  { 
+    id: 13, 
+    name: 'Blue Jay Stickers', 
+    price: 8, 
+    image: '/images/Blue-Jay.jpg', 
+    description: 'Waterproof vinyl stickers featuring beautiful blue jay artwork',
+    category: 'Stickers',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The Blue Jay is a striking bird known for its bright blue plumage and distinctive crest. These intelligent birds are excellent mimics and can imitate the calls of hawks to warn other birds of danger.',
+    habitat: 'Deciduous and mixed forests, parks, and suburban areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 14, 
+    name: 'Cardinal Stickers', 
+    price: 8, 
+    image: '/images/cardinal-PT.jpg', 
+    description: 'Waterproof vinyl stickers featuring vibrant cardinal artwork',
+    category: 'Stickers',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The Northern Cardinal is one of the most recognizable birds in North America, with males sporting brilliant red plumage and females showing warm brown tones with red accents.',
+    habitat: 'Woodlands, gardens, parks, and shrubby areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 15, 
+    name: 'Great Horned Owl Stickers', 
+    price: 8, 
+    image: '/images/great-horned-owl-PT.jpg', 
+    description: 'Waterproof vinyl stickers featuring majestic owl artwork',
+    category: 'Stickers',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The Great Horned Owl is a powerful nocturnal predator with distinctive ear tufts and piercing yellow eyes. Known as the "tiger of the sky," these owls are formidable hunters.',
+    habitat: 'Forests, woodlands, parks, and urban areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 16, 
+    name: 'Red-Tailed Hawk Stickers', 
+    price: 8, 
+    image: '/images/red-tailed-hawk.jpg', 
+    description: 'Waterproof vinyl stickers featuring soaring hawk artwork',
+    category: 'Stickers',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The Red-Tailed Hawk is one of the most common and widespread hawks in North America, easily identified by its distinctive red tail and soaring flight patterns.',
+    habitat: 'Open areas, fields, forests, and urban areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 17, 
+    name: 'Gold Finch Stickers', 
+    price: 8, 
+    image: '/images/gold-finch-PT.jpg', 
+    description: 'Waterproof vinyl stickers featuring cheerful goldfinch artwork',
+    category: 'Stickers',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The American Goldfinch can be found across the United States year round despite their migration for the breeding season. Male goldfinches are easily spotted from the breeding season of July to September, but during the off season, male Goldfinches molt their bright yellow plumage.',
+    habitat: 'Weedy fields, gardens, parks, and open woodlands',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 18, 
+    name: 'Black Bear Cub Stickers', 
+    price: 8, 
+    image: '/images/black-bear-cub-PT.jpg', 
+    description: 'Waterproof vinyl stickers featuring adorable bear cub artwork',
+    category: 'Stickers',
+    species: 'Mammals',
+    inStock: true,
+    animalDescription: 'Black bear cubs are born in winter dens and emerge in spring, learning essential survival skills from their mothers. These playful cubs are curious and energetic.',
+    habitat: 'Forests, swamps, and wooded areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 19, 
+    name: 'Painted Turtle Stickers', 
+    price: 8, 
+    image: '/images/Painted-turtle-greeting-card.jpg', 
+    description: 'Waterproof vinyl stickers featuring colorful turtle artwork',
+    category: 'Stickers',
+    species: 'Reptiles',
+    inStock: true,
+    animalDescription: 'The Painted Turtle is named for its beautiful shell patterns that resemble painted artwork. These turtles are excellent swimmers and bask in the sun on logs and rocks.',
+    habitat: 'Ponds, lakes, marshes, and slow-moving streams',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 20, 
+    name: 'Spring Peeper Stickers', 
+    price: 8, 
+    image: '/images/spring-peeper-PT.jpg', 
+    description: 'Waterproof vinyl stickers featuring tiny frog artwork',
+    category: 'Stickers',
+    species: 'Amphibians',
+    inStock: true,
+    animalDescription: 'The Spring Peeper is a small tree frog known for its loud, high-pitched peeping call that signals the arrival of spring. Despite their small size, their calls can be heard from great distances.',
+    habitat: 'Wetlands, ponds, and wooded areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 21, 
+    name: 'Blue Jay Print', 
+    price: 15, 
+    image: '/images/Blue-Jay.jpg', 
+    description: 'Beautiful watercolor print featuring a vibrant blue jay',
+    category: 'Prints',
+    species: 'Birds',
+    inStock: true,
+    animalDescription: 'The Blue Jay is a striking bird known for its bright blue plumage and distinctive crest. These intelligent birds are excellent mimics and can imitate the calls of hawks to warn other birds of danger.',
+    habitat: 'Deciduous and mixed forests, parks, and suburban areas',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 20, 
+    name: 'Painted Turtle Greeting Card', 
+    price: 5, 
+    image: '/images/Painted-turtle-greeting-card.jpg', 
+    description: 'Hand-painted greeting card featuring a colorful painted turtle',
+    category: 'Greeting Cards',
+    species: 'Reptiles',
+    inStock: true,
+    animalDescription: 'The Painted Turtle is named for its beautiful shell patterns that resemble painted artwork. These turtles are excellent swimmers and bask in the sun on logs and rocks.',
+    habitat: 'Ponds, lakes, marshes, and slow-moving streams',
+    conservationStatus: 'Least Concern - Population stable'
+  },
+  { 
+    id: 22, 
+    name: 'Pleasant Peninsula Print', 
+    price: 20, 
+    image: '/images/Pleasant-Peninsula-PT.jpg', 
+    description: 'Scenic watercolor print showcasing the beauty of Michigan\'s peninsula',
+    category: 'Prints',
+    species: 'Landscapes',
+    inStock: true,
+    animalDescription: 'This artwork captures the serene beauty of Michigan\'s peninsula landscapes, featuring the natural beauty that inspires conservation efforts.',
+    habitat: 'Peninsula landscapes, forests, and coastal areas',
+    conservationStatus: 'Protected - Conservation efforts ongoing'
   }
 ];
 
 export default function Shop() {
-  const [cart, setCart] = useState<{ id: number; name: string; price: number; qty: number; image: string }[]>([]);
+  const [cart, setCart] = useState<{ id: number; name: string; price: number; qty: number; image: string; category: string }[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedSpecies, setSelectedSpecies] = useState<string>('All');
   const [showCart, setShowCart] = useState(false);
@@ -174,6 +291,9 @@ export default function Shop() {
   const categories = ['All', ...Array.from(new Set(products.map(p => p.category)))];
   const species = ['All', ...Array.from(new Set(products.map(p => p.species)))];
 
+  const isPackProduct = (product: typeof products[0]) => product.category === 'Greeting Cards' || product.category === 'Stickers';
+  const getUnitPrice = (product: typeof products[0]) => product.price;
+
   const filteredProducts = products.filter(product => {
     const categoryMatch = selectedCategory === 'All' || product.category === selectedCategory;
     const speciesMatch = selectedSpecies === 'All' || product.species === selectedSpecies;
@@ -181,6 +301,7 @@ export default function Shop() {
   });
 
   function addToCart(product: typeof products[0], quantity: number = 1) {
+    const unitPrice = getUnitPrice(product);
     setCart((prev) => {
       const existing = prev.find((item) => item.id === product.id);
       if (existing) {
@@ -188,7 +309,7 @@ export default function Shop() {
           item.id === product.id ? { ...item, qty: item.qty + quantity } : item
         );
       }
-      return [...prev, { ...product, qty: quantity }];
+      return [...prev, { id: product.id, name: product.name, price: unitPrice, qty: quantity, image: product.image, category: product.category }];
     });
     setShowCart(true);
     setSelectedProduct(null);
@@ -227,7 +348,7 @@ export default function Shop() {
             Shop
           </h1>
           <p className="text-xl text-olive/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Every piece is hand-painted with watercolors, inspired by the natural beauty of Northern Michigan
+            Hand-painted watercolor designs inspired by the natural beauty of Northern Michigan
           </p>
           
           {/* Cart Button */}
@@ -295,7 +416,7 @@ export default function Shop() {
                         </div>
                         <div>
                           <h3 className="font-semibold text-olive">{item.name}</h3>
-                          <p className="text-olive/60 text-sm">${item.price}.00 each</p>
+                          <p className="text-olive/60 text-sm">${item.price}.00 {(item.category === 'Greeting Cards' || item.category === 'Stickers') ? 'per pack' : 'each'}</p>
                         </div>
                       </div>
                       <div className="flex items-center space-x-4">
@@ -380,7 +501,7 @@ export default function Shop() {
                     />
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-bold text-2xl text-turtle">${selectedProduct.price}.00</span>
+                    <span className="font-bold text-2xl text-turtle">${getUnitPrice(selectedProduct)}.00{isPackProduct(selectedProduct) ? ' / Pack of 5' : ''}</span>
                     <div className="flex space-x-2">
                       <span className="bg-turtle text-white text-sm px-3 py-1 rounded-full">
                         {selectedProduct.category}
@@ -430,7 +551,7 @@ export default function Shop() {
                         </button>
                       </div>
                       <span className="text-olive/60">
-                        Total: ${(selectedProduct.price * selectedQuantity).toFixed(2)}
+                        Total: ${(getUnitPrice(selectedProduct) * selectedQuantity).toFixed(2)}
                       </span>
                     </div>
                   </div>
@@ -441,7 +562,7 @@ export default function Shop() {
                     className="w-full btn-primary py-4 text-lg"
                     disabled={!selectedProduct.inStock}
                   >
-                    {selectedProduct.inStock ? `Add ${selectedQuantity} to Cart` : 'Out of Stock'}
+                    {selectedProduct.inStock ? (isPackProduct(selectedProduct) ? `Add ${selectedQuantity} Pack(s) to Cart` : `Add ${selectedQuantity} to Cart`) : 'Out of Stock'}
                   </button>
                 </div>
               </div>
@@ -559,7 +680,7 @@ export default function Shop() {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-xl text-turtle">
-                      ${product.price}.00
+                      ${getUnitPrice(product)}.00{isPackProduct(product) ? ' / Pack of 5' : ''}
                     </span>
                     <button
                       onClick={(e) => {
@@ -569,7 +690,7 @@ export default function Shop() {
                       className="btn-primary px-4 py-2 text-sm"
                       disabled={!product.inStock}
                     >
-                      {product.inStock ? 'Add to Cart' : 'Out of Stock'}
+                      {product.inStock ? (isPackProduct(product) ? 'Add Pack' : 'Add to Cart') : 'Out of Stock'}
                     </button>
                   </div>
                 </div>

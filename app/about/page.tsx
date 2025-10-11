@@ -71,7 +71,7 @@ export default function About() {
               What Drives Me
             </h2>
             <p className="text-xl text-olive/70 max-w-2xl mx-auto">
-              Three core values that guide Painted Turtle.
+              Core values that guide Painted Turtle.
             </p>
           </div>
           
@@ -82,7 +82,7 @@ export default function About() {
               </div>
                              <h3 className="font-heading text-xl font-semibold text-olive mb-4">Artistic Expression</h3>
                <p className="text-olive/70">
-                 Improving my own artistic abilities while sharing the beauty of nature with others
+                 Expressing myself through art while sharing the beauty of nature with others
                </p>
             </div>
             
