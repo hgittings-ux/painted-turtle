@@ -13,7 +13,7 @@ export default function About() {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="font-heading text-5xl md:text-6xl text-olive mb-8">
-            About Penelope - TEST UPDATE
+            About Penelope
           </h1>
           <p className="text-xl text-olive/70 mb-12 max-w-2xl mx-auto leading-relaxed">
             Meet the artist behind Painted Turtle LLC
