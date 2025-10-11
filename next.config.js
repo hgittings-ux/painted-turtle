@@ -5,7 +5,8 @@ const nextConfig = {
     unoptimized: false,
   },
   trailingSlash: false,
-  output: 'standalone',
+  // Remove standalone output for Vercel (Vercel handles this automatically)
+  // output: 'standalone', // Commented out for Vercel deployment
 };
 
 module.exports = nextConfig; 
