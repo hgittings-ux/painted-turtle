@@ -29,8 +29,8 @@ export default function About() {
             <div className="text-center lg:text-left">
               <div className="inline-block p-4 bg-gradient-to-br from-sky/20 to-lake/20 rounded-3xl">
                 <Image 
-                  src="/file.svg" 
-                  alt="Penelope portrait placeholder" 
+                  src="/images/penelope.JPG" 
+                  alt="Penelope Gittings portrait" 
                   width={300} 
                   height={300} 
                   className="rounded-2xl shadow-xl"
