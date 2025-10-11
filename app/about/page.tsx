@@ -18,20 +18,18 @@ export default function About() {
           <p className="text-xl text-olive/70 mb-12 max-w-2xl mx-auto leading-relaxed">
             Meet the artist behind Painted Turtle LLC
           </p>
-        </div>
-      </section>
-
-      {/* Portrait Section */}
-      <section className="px-6 py-12">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block p-4 bg-gradient-to-br from-sky/20 to-lake/20 rounded-3xl">
-            <Image 
-              src="/images/penelope.JPG" 
-              alt="Penelope Gittings portrait" 
-              width={300} 
-              height={300} 
-              className="rounded-2xl shadow-xl"
-            />
+          
+          {/* Portrait */}
+          <div className="flex justify-center mt-8">
+            <div className="inline-block p-4 bg-gradient-to-br from-sky/20 to-lake/20 rounded-3xl">
+              <Image 
+                src="/images/penelope.JPG" 
+                alt="Penelope Gittings portrait" 
+                width={300} 
+                height={300} 
+                className="rounded-2xl shadow-xl"
+              />
+            </div>
           </div>
         </div>
       </section>
