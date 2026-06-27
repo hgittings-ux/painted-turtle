@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { galleryItems } from './data/gallery';
 
 export default function Home() {
   return (
@@ -43,174 +43,24 @@ export default function Home() {
 
       {/* Gallery Section */}
       <section className="w-full py-16 md:py-24 bg-goldenrod/10 border-b border-goldenrod/40">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="font-heading text-4xl md:text-5xl text-olive mb-6">Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-end justify-center mb-8">
-            {/* Blue Jay */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/Blue-Jay.jpg"
-                alt="Blue Jay Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Blue Jay Greeting Card</div>
-            </div>
-            {/* Painted Turtle */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/painted-turtle-greeting-card.jpeg"
-                alt="Painted Turtle Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Painted Turtle Greeting Card</div>
-            </div>
-                        {/* Martin */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/marten-PT.jpg"
-                alt="Martin Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Martin Greeting Card</div>
-            </div>
-            {/* Cardinal */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/cardinal-PT.jpg"
-                alt="Cardinal Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Cardinal Greeting Card</div>
-            </div> 
-            {/* Black Bear Cub */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/black-bear-cub-PT.jpg"
-                alt="Black Bear Cub Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Black Bear Cub Greeting Card</div>
-            </div>
-            {/* Red Tailed Hawk */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/red-tailed-hawk.jpg"
-                alt="Red Tailed Hawk Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Red Tailed Hawk Greeting Card</div>
-            </div>
-            {/* Great Horned Owl */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/great-horned-owl-PT.jpg"
-                alt="Great Horned Owl Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Great Horned Owl Greeting Card</div>
-            </div>
-            {/* Gold Finch */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/gold-finch-PT.jpg"
-                alt="Gold Finch Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Gold Finch Greeting Card</div>
-            </div>
-            {/* Robin */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/robin-PT.jpg"
-                alt="Robin Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Robin Greeting Card</div>
-            </div>
-            {/* Spring Peeper */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/spring-peeper-PT.jpg"
-                alt="Spring Peeper Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Spring Peeper Greeting Card</div>
-            </div>
-            {/* Indiana Bat */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/indiana-bat-PT.jpg"
-                alt="Indiana Bat Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Indiana Bat Greeting Card</div>
-            </div>
-            {/* Indigo Bunting */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/indigo-bunting-PT.jpg"
-                alt="Indigo Bunting Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Indigo Bunting Greeting Card</div>
-            </div>
-            {/* Blue Jay Print */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/Blue-Jay.jpg"
-                alt="Blue Jay Print"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Blue Jay Print</div>
-            </div>
-            {/* Painted Turtle Greeting Card */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/Painted-turtle-greeting-card.jpg"
-                alt="Painted Turtle Greeting Card"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Painted Turtle Greeting Card</div>
-            </div>
-            {/* Pleasant Peninsula */}
-            <div className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center">
-              <Image
-                src="/images/Pleasant-Peninsula-PT.jpg"
-                alt="Pleasant Peninsula Print"
-                width={320}
-                height={240}
-                className="rounded-xl object-contain mx-auto h-56 w-auto"
-              />
-              <div className="mt-4 text-olive text-lg font-medium">Pleasant Peninsula Print</div>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-end justify-center mb-8">
+            {galleryItems.map((item) => (
+              <div
+                key={`${item.title}-${item.src}`}
+                className="bg-cream rounded-2xl shadow-lg p-4 flex flex-col items-center h-80 justify-center"
+              >
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width={320}
+                  height={240}
+                  className="rounded-xl object-contain mx-auto h-56 w-auto"
+                />
+                <div className="mt-4 text-olive text-lg font-medium">{item.title}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
