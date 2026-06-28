@@ -18,4 +18,6 @@ export const galleryItems: GalleryItem[] = [
   { src: '/images/indiana-bat-PT.jpg', alt: 'Indiana Bat watercolor painting', title: 'Indiana Bat' },
   { src: '/images/indigo-bunting-PT.jpg', alt: 'Indigo Bunting watercolor painting', title: 'Indigo Bunting' },
   { src: '/images/Pleasant-Peninsula-PT.jpg', alt: 'Pleasant Peninsula landscape watercolor painting', title: 'Pleasant Peninsula' },
+  { src: '/images/Moose-PT.png', alt: 'Moose Watercolor Painting', title: 'Moose' },
+  { src: '/images/Goldfinch-2.0-PT.png', alt: 'Goldfinch Watercolor Painting', title: 'Goldfinch' },
 ];
